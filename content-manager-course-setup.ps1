@@ -34,6 +34,12 @@ function install-course {
         "--foundations-of-commerce" {
             $RepoUrl = "https://github.com/liferay/liferay-course-foundations-of-commerce/archive/refs/heads/main.zip"
         }
+        "--users-and-accounts" {
+            $RepoUrl = "https://github.com/liferay/liferay-course-commerce-users-and-accounts/archive/refs/heads/main.zip"
+        }
+        "--product-management" {
+            $RepoUrl = "https://github.com/liferay/liferay-course-product-management/archive/refs/heads/main.zip"
+        }
         Default {
             Write-Host "❌ Invalid or missing argument. Use --course1 or --course2."
             return
